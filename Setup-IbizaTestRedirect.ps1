@@ -149,7 +149,7 @@ if (!(Test-IsAdmin)) {
     Write-Host "You must run this setup in an elevated window."
     exit
 }
-
+$a = 12345
 $ibizaTestHost = "10.123.171.113"
 $stbPortalHost = "onestb.cloudapp.net"
 
